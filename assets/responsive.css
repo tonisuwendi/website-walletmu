@@ -1,0 +1,198 @@
+@media screen and (max-width: 1150px) {
+  .testimonial .testi-wrapper .testi-item .testi {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .banner-container .banner-item {
+    padding: 20px;
+  }
+  .banner-container .text-banner .title {
+    font-size: 30px;
+  }
+
+  .banner-container .text-banner .subtitle {
+    font-size: 12px;
+  }
+
+  .btn-blue {
+    font-size: 14px;
+    padding: 15px 30px;
+  }
+
+  .merchants .logo img {
+    margin: 0 20px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial {
+    padding: 70px 10px;
+  }
+
+  .testimonial .testi-wrapper .testi-item {
+    height: 380px;
+    padding: 20px;
+  }
+
+  .testimonial .testi-wrapper .testi-item .img-thumb {
+    height: 70px;
+    width: 70px;
+  }
+
+  .testimonial .testi-wrapper .testi-item .name {
+    font-size: 20px;
+  }
+
+  .testimonial .testi-wrapper .testi-item .job {
+    font-size: 13px;
+  }
+
+  .testimonial .testi-wrapper .testi-item .testi {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    height: 100px;
+    padding: 0 30px;
+  }
+
+  header .btn-menu {
+    display: block;
+  }
+
+  header nav {
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 100%;
+  }
+
+  header nav ul {
+    display: block;
+    padding: 15px 0;
+  }
+
+  header nav ul li {
+    padding: 10px;
+  }
+
+  #navLineBottom {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .img-banner-hide {
+    display: none;
+  }
+
+  .banner-container .banner-item {
+    padding: 20px;
+  }
+
+  .banner-container {
+    display: block;
+  }
+
+  .banner-container .text-banner .title {
+    font-size: 30px;
+  }
+
+  .banner-container .text-banner .subtitle {
+    font-size: 14px;
+  }
+
+  .merchants .logo {
+    margin-top: 20px;
+  }
+
+  .merchants .logo img {
+    height: 20px;
+    margin: 0 10px;
+    margin-bottom: 15px;
+  }
+
+  .download img.btn-download {
+    height: 35px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .feature .banner-item .feature-item {
+    padding: 10px;
+  }
+
+  .feature .banner-item .feature-item img {
+    height: 30px;
+  }
+
+  .feature .banner-item .feature-item h3 {
+    font-size: 17px;
+  }
+
+  aside .profile {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  aside article {
+    flex-direction: column;
+  }
+
+  aside article .text {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .testimonial .testi-wrapper {
+    display: block;
+  }
+
+  .testimonial {
+    padding: 70px 20px;
+  }
+
+  .testimonial .title {
+    font-size: 20px;
+  }
+
+  .testimonial .testi-wrapper .testi-item {
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .testimonial .testi-wrapper .testi-item .testi {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  aside article {
+    margin-top: 10px;
+  }
+
+  aside .title {
+    font-size: 20px;
+  }
+
+  aside .photo {
+    height: 150px;
+    margin: auto;
+    width: 150px;
+  }
+
+  section.modal .box-modal {
+    width: 90%;
+  }
+}

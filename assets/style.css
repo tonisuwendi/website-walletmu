@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  padding: 0 65px;
+  position: fixed;
+  transition: 0.3s;
+  width: 100%;
+  z-index: 1;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.header-scroll {
+  background-color: white;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  height: 75px;
+}
+
+header .logo {
+  transition: 0.3s;
+  width: 180px;
+}
+
+header nav {
+  position: relative;
+}
+
+header .btn-menu {
+  display: none;
+  height: 25px;
+  cursor: pointer;
+}
+
+#navLineBottom {
+  background-color: #0180ff;
+  border-radius: 5px;
+  height: 4px;
+  left: 0px;
+  position: absolute;
+  top: 40px;
+  transition: 0.2s ease-in-out;
+  width: 88px;
+}
+
+header ul {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+}
+
+header .menu {
+  color: #777;
+  font-size: 17px;
+  padding: 20px;
+  transition: 0.2s;
+}
+
+header .menu:hover,
+header .menu-active {
+  color: #0180ff;
+}
+
+.banner {
+  background: -webkit-linear-gradient(top right, #fffcf1, #f2fafe);
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.banner-container {
+  display: flex;
+}
+
+.banner-container .banner-item {
+  align-items: center;
+  display: flex;
+  flex-basis: 50%;
+  padding: 20px 70px;
+}
+
+.banner-container .banner-item-left {
+  justify-content: right;
+  padding-right: 20px;
+}
+
+.banner-container .banner-item-right {
+  justify-content: left;
+}
+
+.banner-container .banner-img {
+  width: 100%;
+}
+
+.banner-container .text-banner .title {
+  font-size: 48px;
+  font-family: "STIX Two Text", serif;
+}
+
+.banner-container .text-banner .title span {
+  font-family: "STIX Two Text", serif;
+}
+
+.banner-container .text-banner .subtitle {
+  color: #888;
+  margin-top: 10px;
+  line-height: 22px;
+  font-size: 15px;
+}
+
+.banner-container .text-banner .btn-wrapper {
+  margin-top: 40px;
+}
+
+.btn-blue {
+  background-color: #0180ff;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 17px 35px;
+  position: relative;
+  transition: 0.2s;
+}
+
+.btn-blue-center {
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, 0);
+}
+
+.btn-blue:hover {
+  background-color: #0365c7;
+  box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.line-bottom {
+  background-color: #0180ff;
+  border-radius: 10px;
+  height: 5px;
+  margin: 15px auto;
+  width: 100px;
+}
+
+.banner-container .text-banner .benefit {
+  margin-top: 15px;
+}
+
+.banner-container .text-banner .benefit p {
+  color: #333;
+  display: flex;
+  font-size: 16px;
+  margin: 7px 0;
+}
+
+.banner-container .text-banner .benefit img {
+  height: 20px;
+  margin-right: 7px;
+}
+
+.merchants {
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+
+.merchants .title {
+  color: #333;
+  font-size: 20px;
+  text-align: center;
+}
+
+.merchants .logo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.merchants .logo img {
+  height: 25px;
+  margin: 0 30px;
+  margin-bottom: 20px;
+}
+
+.span-color-green {
+  color: #05ca8c;
+}
+
+.span-color-blue {
+  color: #0180ff;
+}
+
+.feature {
+  background: -webkit-linear-gradient(top right, #fffcf1, #f2fafe);
+  margin-top: 50px;
+  padding: 50px 0;
+}
+
+.feature .banner-item {
+  flex-wrap: wrap;
+}
+
+.feature .banner-item .feature-item {
+  flex-basis: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+.feature .banner-item .feature-item img {
+  height: 50px;
+  margin: auto;
+}
+
+.feature .banner-item .feature-item h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.feature .banner-item .feature-item p {
+  color: #555;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.testimonial {
+  padding-top: 70px;
+  padding: 70px 50px;
+}
+
+.testimonial .title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.testimonial .testi-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.testimonial .testi-wrapper .testi-item {
+  align-items: center;
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  flex-basis: 30%;
+  height: 350px;
+  margin: auto;
+  margin-bottom: calc((100% / 3) - 30%);
+  overflow: hidden;
+  padding: 35px;
+  transition: 0.2s;
+}
+
+.testimonial .testi-wrapper .testi-item:hover {
+  border: 1px solid #0180ff;
+  transform: translate(0, -5px);
+  box-shadow: 1px 1px 10px rgba(1, 128, 255, 0.2);
+}
+
+.testimonial .testi-wrapper .testi-item .img-thumb {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.testimonial .testi-wrapper .testi-item .name {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.testimonial .testi-wrapper .testi-item .job {
+  color: #555;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.testimonial .testi-wrapper .testi-item .testi {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.download {
+  margin-top: 50px;
+  padding: 0;
+}
+
+.download img.btn-download {
+  cursor: pointer;
+  margin-right: 20px;
+  height: 50px;
+  transition: 0.2s;
+  margin-top: 30px;
+}
+
+.download img.btn-download:hover {
+  transform: scale(1.05);
+}
+
+aside {
+  margin: 50px 0;
+}
+
+aside .title {
+  font-size: 25px;
+  text-align: center;
+}
+
+aside article {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+aside .photo {
+  border-radius: 50%;
+  height: 200px;
+  overflow: hidden;
+  width: 200px;
+}
+
+aside article .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+aside article .text h4 {
+  font-size: 25px;
+}
+
+aside article .text small {
+  color: #555;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+aside article .text .socmed {
+  margin-top: 20px;
+}
+
+aside article .text .socmed strong {
+  color: #333;
+}
+
+aside article .text .socmed .logo {
+  margin-top: 10px;
+}
+
+aside article .text .socmed img {
+  height: 25px;
+  margin-right: 5px;
+  transition: 0.2s;
+}
+
+aside article .text .socmed img:hover {
+  transform: translate(0, -2px);
+}
+
+footer {
+  background-color: #f1f5f9;
+  padding: 30px 0;
+  text-align: center;
+  width: 100%;
+}
+
+section.modal {
+  display: none;
+}
+
+section.modal .background {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+
+section.modal .box-modal {
+  background-color: white;
+  border-radius: 7px;
+  height: auto;
+  left: 50%;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  z-index: 10;
+}
+
+.box-modal h3 {
+  margin-bottom: 20px;
+}
+
+.box-modal input,
+.box-modal textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 37px;
+  outline: none;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 12px;
+  transition: 0.2s;
+  width: 100%;
+}
+
+.box-modal textarea {
+  height: 100px;
+  margin-bottom: 2px;
+  resize: none;
+}
+
+.box-modal input:focus,
+.box-modal textarea:focus {
+  border: 1px solid #0180ff;
+}
+
+.box-modal small {
+  color: #555;
+  font-size: 12px;
+}
+
+.box-modal button {
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 13px 25px;
+  margin-top: 10px;
+}

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Walletmu.</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/wallet.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/responsive.css" />
+  </head>
+  <body>
+    <header id="header">
+      <a href="#">
+        <img class="logo" src="assets/images/logo.png" alt="logo walletmu" />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home" class="menu menu-active">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="menu">Tentang</a>
+          </li>
+          <li>
+            <a href="#feature" class="menu">Fitur</a>
+          </li>
+          <li>
+            <a href="#testimonial" class="menu">Testimoni</a>
+          </li>
+          <li>
+            <a href="#download" class="menu">Download</a>
+          </li>
+        </ul>
+        <div id="navLineBottom"></div>
+      </nav>
+      <img
+        src="assets/images/menu.png"
+        onclick="clickNavMenu(this)"
+        class="btn-menu"
+        alt="menu"
+      />
+    </header>
+    <main>
+      <article id="home" class="banner">
+        <div class="banner-container">
+          <div class="banner-item banner-item-left">
+            <img
+              src="assets/images/banner.png"
+              class="banner-img img-banner-hide"
+              alt="banner"
+            />
+          </div>
+          <div class="banner-item banner-item-right">
+            <div class="text-banner">
+              <h1 class="title">
+                Walletmu. jadikan hidupmu lebih simpel untuk
+                <span class="span-color-green">Pembayaran</span>
+              </h1>
+              <p class="subtitle">
+                Semua sudah bisa dilakukan dalam genggaman, termasuk uangmu dan
+                pembayaranmu. Jadikan hidup jadi lebih simpel dan praktis dengan
+                Walletmu. Download sekarang juga aplikasi Walletmu di toko
+                aplikasi.
+              </p>
+              <div class="btn-wrapper">
+                <a href="#download" class="btn-blue">Download Sekarang</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="merchants">
+          <h3 class="title">Merchant Kami</h3>
+          <div class="logo">
+            <img src="assets/images/tokopedia.svg" alt="logo tokopedia" />
+            <img src="assets/images/gojek.svg" alt="logo gojek" />
+            <img src="assets/images/alfamart.svg" alt="logo alfamart" />
+            <img src="assets/images/bukalapak.svg" alt="logo bukalapak" />
+            <img src="assets/images/traveloka.svg" alt="logo traveloka" />
+            <img src="assets/images/kitabisa.png" alt="logo kitabisa" />
+          </div>
+        </div>
+      </article>
+      <article id="about" class="about">
+        <div class="banner-container">
+          <div class="banner-item banner-item-left">
+            <img
+              src="assets/images/about.svg"
+              class="banner-img"
+              alt="banner"
+            />
+          </div>
+          <div class="banner-item banner-item-right">
+            <div class="text-banner">
+              <h1 class="title">
+                Tentang Walletmu<span class="span-color-blue">.</span>
+              </h1>
+              <p class="subtitle">
+                Walletmu adalah sebuah aplikasi dompet digital. Mau bayar apapun
+                jadi semudah lewat sentuhan jari. Lewat Walletmu, kamu bisa
+                melakukan transaksi apapun dengan praktis mulai dari pembayaran
+                tagihan, transaksi barcode scan, hingga e-commerce. Pake
+                Walletmu sekarang untuk menjadikan hidupmu lebih simpel dan
+                praktis.
+              </p>
+              <div class="benefit">
+                <p>
+                  <img src="assets/images/check-circle.svg" alt="check" />
+                  Layanan Terlengkap
+                </p>
+                <p>
+                  <img src="assets/images/check-circle.svg" alt="check" />
+                  Sistem Tercanggih
+                </p>
+                <p>
+                  <img src="assets/images/check-circle.svg" alt="check" />
+                  Keamanan Terjamin
+                </p>
+              </div>
+              <div class="btn-wrapper">
+                <a href="#" class="btn-blue">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="feature" class="feature">
+        <div class="banner-container">
+          <div class="banner-item banner-item-left">
+            <div class="text-banner">
+              <h1 class="title">
+                Ada banyak fitur pada aplikasi Walletmu<span
+                  class="span-color-blue"
+                  >.</span
+                >
+              </h1>
+              <p class="subtitle">
+                Makin pede pake Walletmu<span class="span-color-blue">.</span>
+                dengan segala kemudahan dan fitur. Disamping adalah beberapa
+                contoh kecil fitur yang dimiliki. Tentunya masih ada banyak
+                banget fitur yang bisa kamu lihat pada halaman selengkapnya.
+              </p>
+              <div class="btn-wrapper">
+                <a href="#" class="btn-blue">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="banner-item banner-item-right">
+            <div class="feature-item">
+              <img src="assets/images/bill-payment.png" alt="bill payment" />
+              <h3>Bayar Tagihan</h3>
+              <p>Bayar segala tagihanmu lebih mudah dengan aplikasi</p>
+            </div>
+            <div class="feature-item">
+              <img src="assets/images/withdraw.png" alt="withdraw" />
+              <h3>Penarikan Saldo</h3>
+              <p>Tarik saldomu lebih mudah dengan aplikasi</p>
+            </div>
+            <div class="feature-item">
+              <img src="assets/images/credit.png" alt="credit" />
+              <h3>Tambah Kartu</h3>
+              <p>Tambahkan kartu kredit kamu hanya dengan aplikasi</p>
+            </div>
+            <div class="feature-item">
+              <img src="assets/images/bill-history.png" alt="bill history" />
+              <h3>Riwayat Transaksi</h3>
+              <p>Lihat semua transaksi hanya dengan aplikasi</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="testimonial" class="testimonial">
+        <h2 class="title">
+          Kata Pengguna Walletmu<span class="span-color-blue">.</span>
+        </h2>
+        <div class="line-bottom"></div>
+        <div class="testi-wrapper" id="testimonialWrapper">
+          <div class="testi-item">
+            <div>
+              <img
+                src="assets/images/testi1.png"
+                alt="photo"
+                class="img-thumb"
+              />
+              <h4 class="name">Lusnadi</h4>
+              <small class="job">Wiraswasta</small>
+              <p class="testi">
+                Voucher-nya menarik, promo-nya jelas, & cashback-nya sangat
+                menguntungkan kami sebagai customer. Pokoknya happy banget pake
+                Walletmu.
+              </p>
+            </div>
+          </div>
+          <div class="testi-item">
+            <div>
+              <img
+                src="assets/images/testi2.png"
+                alt="photo"
+                class="img-thumb"
+              />
+              <h4 class="name">Hayati</h4>
+              <small class="job">Ibu Rumah Tangga</small>
+              <p class="testi">
+                Saya sering berburu Voucher buat jajan di merchant. Bahkan, kalo
+                saya lagi jalan-jalan dan kepingin makan, saya lihat dulu di
+                Walletmu lagi ada Voucher apa, soalnya promonya lumayan banget!
+              </p>
+            </div>
+          </div>
+          <div class="testi-item">
+            <div>
+              <img
+                src="assets/images/testi3.png"
+                alt="photo"
+                class="img-thumb"
+              />
+              <h4 class="name">Novi</h4>
+              <small class="job">Ibu Rumah Tangga</small>
+              <p class="testi">
+                Kalau aku diuntungkan banget sama cashback-nya, apalagi kalau
+                belanja di Marketplace pake Walletmu. Cashback-nya lebih besar,
+                bisa 100 ribu lebih!
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="btn-blue btn-blue-center" onclick="showModalTestimoni()">
+          Tambah Testimoni
+        </button>
+      </article>
+      <article id="download" class="download banner">
+        <div class="banner-container">
+          <div class="banner-item banner-item-left">
+            <img
+              src="assets/images/downloadnow.svg"
+              class="banner-img"
+              alt="banner"
+            />
+          </div>
+          <div class="banner-item banner-item-right">
+            <div class="text-banner">
+              <h1 class="title">
+                Bayar ini itu tanpa perlu ribet. Download Walletmu<span
+                  class="span-color-blue"
+                  >.</span
+                >
+                sekarang!
+              </h1>
+              <img
+                class="btn-download"
+                src="assets/images/download-appstore.svg"
+                alt="download button app store"
+              />
+              <img
+                class="btn-download"
+                src="assets/images/download-gplay.svg"
+                alt="download button google play"
+              />
+            </div>
+          </div>
+        </div>
+      </article>
+      <aside>
+        <h3 class="title">Tentang Pengembang</h3>
+        <div class="line-bottom"></div>
+        <div class="profile">
+          <article>
+            <img
+              class="photo"
+              src="assets/images/myphoto.jpg"
+              alt="photo pengembang"
+            />
+            <div class="text">
+              <h4>Toni Suwendi</h4>
+              <span>Software Developer</span>
+              <small>tonisuwen@gmail.com</small>
+              <div class="socmed">
+                <strong>Follow Me:</strong>
+                <div class="logo">
+                  <a href="https://facebook.com/tonisuwen" target="_blank"
+                    ><img src="assets/images/facebook.png" alt="facebook"
+                  /></a>
+                  <a href="https://instagram.com/toni.suwendi" target="_blank"
+                    ><img src="assets/images/instagram.png" alt="instagram"
+                  /></a>
+                  <a href="https://linkedin.com/in/tonisuwendi" target="_blank"
+                    ><img src="assets/images/linkedin.png" alt="linkedin"
+                  /></a>
+                  <a href="https://github.com/tonisuwendi" target="_blank"
+                    ><img src="assets/images/github.png" alt="github"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <p>&copy; 2021 Walletmu. All Right Reserved.</p>
+    </footer>
+    <section class="modal">
+      <div class="background" onclick="hideModalTestimoni()"></div>
+      <div class="box-modal">
+        <h3>Tambah Testimoni</h3>
+        <label for="testiName">Nama</label>
+        <input type="text" id="testiName" autocomplete="off" />
+        <label for="testiPhoto">Link Foto</label>
+        <input type="text" id="testiPhoto" autocomplete="off" />
+        <label for="testiJob">Pekerjaan</label>
+        <input type="text" id="testiJob" autocomplete="off" />
+        <label for="testiContent">Testimoni</label>
+        <textarea id="testiContent" autocomplete="off"></textarea>
+        <small>Max: 200 karakter</small><br />
+        <button class="btn-blue" onclick="addTestimonialToStorage()">
+          Tambah Testimoni
+        </button>
+      </div>
+    </section>
+    <script src="assets/dummyTesti.js"></script>
+    <script src="assets/storage.js"></script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
